@@ -22,25 +22,12 @@ class BuySellStockEasy:
 
     @staticmethod
     def maxProfit3(prices: List[int]) -> int:
-        min_test = 0
-        max_test = 0
+        min_price = prices[0]
+        max_profit = 0
         print(prices)
-
-        def clean():
-            min_idxs = [i for i, x in enumerate(prices) if x == min(prices)]
-            max_idxs = [i for i, x in enumerate(prices) if x == max(prices)]
-            min_idx = max(max_idxs)
-            max_idx = min(min_idxs)
-            print(f"min_idxs: {min_idxs}")
-            print(f"max_idxs: {max_idxs}")
-            print(f"max_idx: {max_idx}")
-            print(f"min_idx: {min_idx}")
-
-            if max_idx < min_idx:
-                del prices[max_idx]
-                clean()
-
-        clean()
-        print(prices)
-        return prices[max_test] - prices[min_test]
+        print(prices[1:])
+        for price in prices[1:]:
+            max_profit = max(max_profit, price - min_price)
+            min_price = min(min_price, price)
+        return max_profit
 
