@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.LengthOfLastWord import LengthOfLastWord
+from src.easy.LengthOfLastWord import LengthOfLastWord
 
 
 class TestLengthOfLastWord(TestCase):

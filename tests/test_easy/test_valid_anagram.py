@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.ValidAnagram import ValidAnagram
+from src.easy.ValidAnagram import ValidAnagram
 
 
 class TestValidAnagram(TestCase):

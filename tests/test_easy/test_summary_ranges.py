@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.SummaryRanges import SummaryRanges
+from src.easy.SummaryRanges import SummaryRanges
 
 
 class TestSummaryRanges(TestCase):

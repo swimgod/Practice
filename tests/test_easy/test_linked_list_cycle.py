@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.LinkedListCycle import LinkedListCycle, ListNode
+from src.easy.LinkedListCycle import LinkedListCycle, ListNode
 
 
 class TestLinkedListCycle(TestCase):

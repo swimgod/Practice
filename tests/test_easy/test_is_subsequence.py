@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.IsSubsequence import IsSubsequence
+from src.easy.IsSubsequence import IsSubsequence
 
 
 class TestIsSubsequence(TestCase):

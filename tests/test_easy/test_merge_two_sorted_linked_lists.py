@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.MergeTwoSortedLinkedLists import MergeTwoSortedLinkedLists, ListNode
+from src.easy.MergeTwoSortedLinkedLists import MergeTwoSortedLinkedLists, ListNode
 
 
 class TestIsomorphic(TestCase):

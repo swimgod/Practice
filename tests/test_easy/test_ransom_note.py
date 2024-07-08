@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.RansomNote import RansomNote
+from src.easy.RansomNote import RansomNote
 
 
 class TestRansomNote(TestCase):

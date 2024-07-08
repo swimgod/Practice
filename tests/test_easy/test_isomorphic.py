@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.IsomorphicStrings import IsomorphicStrings
+from src.easy.IsomorphicStrings import IsomorphicStrings
 
 
 class TestIsomorphic(TestCase):

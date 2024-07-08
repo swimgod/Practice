@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.BuySellStockEasy import BuySellStockEasy
+from src.easy.BuySellStockEasy import BuySellStockEasy
 
 
 class TestBuySellStockEasy(TestCase):

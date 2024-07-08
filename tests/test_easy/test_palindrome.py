@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.PalindromeSolution import PalindromeSolution
+from src.easy.PalindromeSolution import PalindromeSolution
 
 
 class TestPalindrome(TestCase):

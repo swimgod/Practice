@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.MajorityElement import MajorityElement
+from src.easy.MajorityElement import MajorityElement
 
 
 class TestMajorityElement(TestCase):

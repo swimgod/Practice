@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.MergeSorted import MergeSorted
+from src.easy.MergeSorted import MergeSorted
 
 
 class TestMergeSorted(TestCase):

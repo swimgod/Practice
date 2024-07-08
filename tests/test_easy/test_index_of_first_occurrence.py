@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.IndexOfFirstOccurrence import IndexOfFirstOccurrence
+from src.easy.IndexOfFirstOccurrence import IndexOfFirstOccurrence
 
 
 class TestIndexOfFirstOccurrence(TestCase):

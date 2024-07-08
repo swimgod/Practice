@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.HappyNum import HappyNum
+from src.easy.HappyNum import HappyNum
 
 
 class TestHappyNum(TestCase):

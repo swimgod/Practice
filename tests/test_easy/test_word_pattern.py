@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.WordPattern import WordPattern
+from src.easy.WordPattern import WordPattern
 
 
 class TestWordPattern(TestCase):

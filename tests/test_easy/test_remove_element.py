@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.RemoveElement import RemoveElement
+from src.easy.RemoveElement import RemoveElement
 
 
 class TestRemoveElement(TestCase):

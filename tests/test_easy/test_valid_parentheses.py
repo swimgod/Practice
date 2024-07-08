@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.ValidParentheses import ValidParentheses
+from src.easy.ValidParentheses import ValidParentheses
 
 
 class TestValidParentheses(TestCase):

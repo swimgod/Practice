@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.RomanToIntSolution import RomanToIntSolution
+from src.easy.RomanToIntSolution import RomanToIntSolution
 
 
 class TestRomanToInt(TestCase):
