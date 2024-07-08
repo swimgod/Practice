@@ -3,7 +3,7 @@ from unittest import TestCase
 from src.HappyNum import HappyNum
 
 
-class TestIsomorphic(TestCase):
+class TestHappyNum(TestCase):
     def test_case1(self):
         n = 19
         expected = True

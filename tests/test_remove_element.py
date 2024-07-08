@@ -3,7 +3,7 @@ from unittest import TestCase
 from src.RemoveElement import RemoveElement
 
 
-class TestMergeSorted(TestCase):
+class TestRemoveElement(TestCase):
     def test_case_1(self):
         nums = [3, 2, 2, 3]
         val = 3
