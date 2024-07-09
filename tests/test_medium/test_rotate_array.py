@@ -3,7 +3,7 @@ from unittest import TestCase
 from src.medium.RotateArray import RotateArray
 
 
-class TestMaxDepthBinaryTree(TestCase):
+class TestRotateArray(TestCase):
     def test_case1(self):
         nums = [1, 2, 3, 4, 5, 6, 7]
         k = 3
