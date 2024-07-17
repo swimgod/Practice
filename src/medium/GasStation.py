@@ -5,6 +5,23 @@ import math
 class GasStation:
     @staticmethod
     def canCompleteCircuit(gas: List[int], cost: List[int]) -> int:
+        total_gas = sum(gas)
+        total_cost = sum(cost)
+        if total_cost > total_gas:
+            return -1
+
+        starting_index = 0
+        current_gas = 0
+        for i in range(len(gas)):
+            current_gas += gas[i] - cost[i]
+            if current_gas < 0:
+                current_gas = 0
+                starting_index = i + 1
+        return starting_index
+
+
+    @staticmethod
+    def canCompleteCircuitTimeExceeded(gas: List[int], cost: List[int]) -> int:
         print(gas)
         print(cost)
 
